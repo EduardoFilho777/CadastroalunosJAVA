@@ -11,7 +11,7 @@ public class Main {public static void main(String[] args) {
             Aluno aluno1 = new Aluno("Eduardo", 20, "2025001");
             service.cadastrarAluno(aluno1);
 
-            Aluno aluno2 = new Aluno(null, 22, "2025002");
+            Aluno aluno2 = new Aluno("Marcus", 22, "2025002");
             service.cadastrarAluno(aluno2); // Vai lançar exceção
 
         } catch (CadastroException e) {
